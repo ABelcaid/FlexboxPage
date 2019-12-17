@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
   }
+  body{
+    overflow-x: hidden;
+  }
     .title{
   color: #3867d6;
   margin: 40px;
@@ -54,23 +57,85 @@ text-align: center;
   width: 95%;
 }
 .footer{
-width: 100%;
-height: auto;
-margin: auto;
-background: #30336b;
-padding: 30px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background:#30336b;
+  padding: 20px 0px;
 }
+.footer .media{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footer .media ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer .media ul li{
+display: inline-block;
+width: 50px;
+height: 20px;
+margin: 10px 0;
+}
+.footer .media ul li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer .infooter ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer .infooter ul li{
+flex:50px;
+height: 30px;
+margin: 10px 0;
+}
+.footer .infooter ul li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
 .copyR{
 width: 100%;
 height: auto;
 margin: auto;
+display: flex;
+justify-content: center;
 background:#130f40;
 padding: 15px;
 color: white;
-display: flex;
-justify-content: center;
-}
 
+
+}
+/* .infooter{
+  width: 100%;
+}
+.media{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.media ul {
+  height: 0px;
+  margin: 0px;
+  text-align: center;
+}.media ul li{
+display: inline-block;
+width: 50px;
+height: 50px;
+margin: 0px 10px;
+}
+}.media ul li a{
+  font-size: 25px;
+  text-decoration: none;
+} */
 /* media part
 ----------------------------------------------------------------------- */
 @media (max-width: 600px) {
