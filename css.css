@@ -48,7 +48,9 @@ text-align: center;
     flex-direction: column;
   }
 }
-
+body{
+	margin: 0;
+}
 #container{
 	padding-top: 30px;
 	display: flex;
@@ -58,9 +60,33 @@ text-align: center;
 #container a{
 	text-decoration: none;
 }
+#container h3{
+	color: black;
+}
 #container div{
 	width: 380px;
 }
 #container p{
 	width: 380px;
+}
+@media (max-width: 500px) {
+	#container{
+		
+		justify-content: center;
+	}
+
+	#container div img {
+		width: 100%;
+		border-radius: 3px;
+	}
+
+}
+#footer{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+#footer p{
+	color: white;
+	text-align: center;
 }

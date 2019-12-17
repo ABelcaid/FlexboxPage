@@ -83,12 +83,16 @@
   }
   .wname{
     margin: 10px;
+    font-size: 13px;
 
   }
   .container div {
       flex: 1;
       height: 450px;
       
+  }
+  .item7{
+    background-color: cadetblue;
   }
 
   
