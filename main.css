@@ -3,13 +3,7 @@
     margin: 0;
     padding: 0;
   }
-  body{
-<<<<<<< HEAD
-    background-color: #FFF;
-=======
-    overflow-x: hidden;
->>>>>>> 42e480e5bb999815cd93aacea054bdb936171521
-  }
+
     .title{
   color: #3867d6;
   margin: 40px;
@@ -18,7 +12,7 @@
   font-size: 20px;
   width: 100%;
   box-shadow: 3PX 3PX gray;
-  
+
 }
 .nav-bar ul{
   list-style-type: none;
@@ -109,7 +103,6 @@ margin: 10px 0;
 
 
 .copyR{
-width: 100%;
 height: auto;
 margin: auto;
 display: flex;
